@@ -1,0 +1,48 @@
+html {
+    box-sizing: border-box;
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+/*GLOBALES*/
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.contenedor{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Header y Navegacion*/
+
+.nombre-sitio{
+    margin-top: 50px ;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.contenedor-navegacion{
+    border-top: 1px solid #e1e1e1;
+
+}
+.nombre-sitio span{
+    color: #037bc0;
+}
+.nav-principal{
+    
+    padding: 20px 0;
+
+}
+
+.hero{
+    background-image: url(./img/principal.jpg);
+    background-repeat: no-repeats;
+    background-size: cover;
+    height: 550px;
+
+}
+
+/*Display inline no se puede poner width y heigth*/
+/*Display Block si se puede poner width y heigth*/
