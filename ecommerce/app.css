@@ -9,6 +9,10 @@ a{
     text-decoration: none;
     color: black;
 }
+img{
+    max-width: 100%;
+    display: block;
+}
 
 .contenedor{
     max-width: 1200px;
@@ -31,10 +35,50 @@ a{
     color: #037bc0;
 }
 .nav-principal{
-    
     padding: 20px 0;
+    display: flex;
+    justify-content: space-between ;
+    gap: 20px;
 
 }
+
+/*Categorias*/
+
+.listado-categorias{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.categoria a{
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 25px;
+    width: 386px;
+}
+
+.categoria a:hover{
+    background-color:#037bc0;
+    color: #ffffff;
+    border-bottom-right-radius: 10px;
+
+}
+.categorias h2{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .hero{
     background-image: url(./img/principal.jpg);
