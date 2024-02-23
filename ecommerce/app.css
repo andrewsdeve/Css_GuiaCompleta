@@ -4,6 +4,10 @@ html {
   *, *:before, *:after {
     box-sizing: inherit;
 }
+
+body{
+    font-family: "Raleway", sans-serif;
+}
 /*GLOBALES*/
 a{
     text-decoration: none;
@@ -12,6 +16,9 @@ a{
 img{
     max-width: 100%;
     display: block;
+}
+h1,h2,h3{
+    font-family: "Playfair Display", serif;
 }
 
 .contenedor{
