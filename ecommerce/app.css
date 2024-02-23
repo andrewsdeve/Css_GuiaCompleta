@@ -8,22 +8,27 @@ html {
 body{
     font-family: "Raleway", sans-serif;
     font-size: 1.6rem;
+    line-height: 1.5;
 }
 
 
 
 
 /*GLOBALES*/
+
 a{
     text-decoration: none;
     color: black;
 }
-img{
-    max-width: 100%;
-    display: block;
-}
 h1,h2,h3{
     font-family: "Playfair Display", serif;
+    margin: 0 0 5rem 0;
+}
+h1{
+    font-size: 5rem;
+}
+h2{
+    font-size: 4rem;
 }
 h3{
     font-size: 3rem;
@@ -32,16 +37,17 @@ h3{
     max-width: 120rem;
     margin: 0 auto;
 }
-
-
+img{
+    max-width: 100%;
+    display: block;
+}
 
 /*Header y Navegacion*/
 
 .nombre-sitio{
     margin-top: 5rem ;
-    margin-bottom: 5rem;
     text-align: center;
-    font-size: 4rem;
+    
 }
 
 .contenedor-navegacion{
@@ -60,6 +66,10 @@ h3{
 }
 
 /*Categorias*/
+
+.categorias{
+    padding-top: 5rem;
+}
 
 .listado-categorias{
     display:grid;
@@ -88,6 +98,7 @@ h3{
     background-image: url(./img/principal.jpg);
     background-repeat: no-repeats;
     background-size: cover;
+    background-position: center center;
     height: 55rem;
 
 }
