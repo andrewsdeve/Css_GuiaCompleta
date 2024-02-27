@@ -42,6 +42,26 @@ img{
     display: block;
 }
 
+.btn{
+    background-color: #8cbc00;
+    display: block;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+    -webkit-transition: background-color .3s ease-out;
+    -moz-transition: background-color .3s ease-out;
+    -ms-transition: background-color .3s ease-out;
+    -o-transition: background-color .3s ease-out;
+
+}
+
+.btn:hover{
+    background-color: #769c02;
+
+}
+
 /*UTILIDADES*/
 
 .text-center{
@@ -143,6 +163,7 @@ img{
 .texto-producto{
     text-align: center;
     color: #fff;
+    padding: 5rem;
 }
 
 .texto-producto h3{
@@ -158,9 +179,6 @@ img{
     font-weight: 900;
 }
 
-.texto-producto a{
-
-}
 
 
 /*Display inline no se puede poner width y heigth*/
