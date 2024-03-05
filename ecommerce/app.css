@@ -315,6 +315,13 @@ img{
     color: #037bc0;
 }
 
+/*Entrada Blog*/
+
+.contenido-entrada-blog{
+    width: 60rem;
+    margin: 0 auto;
+}
+
 
 
 /*Display inline no se puede poner width y heigth*/
