@@ -322,6 +322,27 @@ img{
     margin: 0 auto;
 }
 
+/*GALERIA*/
+
+.galeria{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.galeria img{
+    height: 40rem;
+    width: 40rem;
+    object-fit: cover;
+    box-shadow: var(--sombra-lite);
+    transition: .5s ease-in-out;
+    -webkit-transition: .5s ease-in;
+    -moz-transition: .5s ease-in;
+    -ms-transition: .5s ease-in;
+    -o-transition: .5s ease-in;
+}
+
 
 
 /*Display inline no se puede poner width y heigth*/
