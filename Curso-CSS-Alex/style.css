@@ -4,3 +4,16 @@ h2{
 .nav{
     border: 2px solid black;
 }
+
+#section{
+    border: 1px solid black;
+}
+
+.titulo{
+    text-align: center;
+}
+
+.🐤{
+    color: darkblue;
+}
+
